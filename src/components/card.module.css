@@ -1,0 +1,49 @@
+.card {
+  max-width: 350px;
+  border: 2px white solid;
+  text-align: center;
+  cursor: pointer;
+}
+.cardTitle {
+  margin: 0;
+  padding: 15px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  height: 50px;
+  border-bottom: 2px white solid;
+  text-align: center;
+}
+.cardPrice {
+  margin: 0;
+  padding: 15px;
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+.cardInfo {
+  background-color: rgb(167, 160, 160);
+  margin: 0;
+  padding: 10px 20px;
+  height: 40px;
+}
+p {
+  height: 30px;
+}
+.cardSpeed {
+  background-color: #dcdcdc;
+  margin: 0;
+  padding: 10px;
+}
+.active {
+  transform: scale(1.1);
+}
+.cardPriceValue {
+  font-size: 80px;
+}
+.cardPriceRub {
+  vertical-align: top;
+}
+.selected {
+  border: 10px #8c4852 double;
+}
